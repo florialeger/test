@@ -1,0 +1,7 @@
+.img {
+    border-radius: calc(10px  + 1.5vw);
+    width: calc(180px + 5vw);
+    object-fit: cover;
+    aspect-ratio: 4/5;
+}
+
