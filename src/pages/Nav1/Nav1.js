@@ -12,7 +12,7 @@ function Nav1() {
     "max-glare": 0.5,
   };
   return (
-    <div>
+    <div className="Nav1">
       <Title title="Vannilla Tilt" />
       <div className="tilt-container">
         <section>

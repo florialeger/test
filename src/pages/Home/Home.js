@@ -1,13 +1,15 @@
 import React from "react";
 import Title from "../../composents/Title/Title";
+import BgImage from "../../composents/BgImage/BgImage";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home-container">
-      <Title title="Home Page" />
+      <BgImage className="bg-image" img="/img/fleur.JPG" blur= "3"/>
+      <Title title="Home Page..." />
       <p>
-        --- I am currently a first-year student at ENSC, a cognitive engineering
+        ... I am currently a first-year student at ENSC, a cognitive engineering
         school located in Bordeaux. I have a strong passion for UI and UX
         design, and I find the accessibility aspect particularly interesting.
         This background has given me a solid foundation in designing
@@ -39,7 +41,7 @@ function Home() {
         teamwork and pushing myself beyond my limits. I also have a keen
         interest in photography, videography, and animation—essentially anything
         related to creation. These hobbies allow me to continuously expand my
-        creative horizons. ---
+        creative horizons.
       </p>
     </div>
   );

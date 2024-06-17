@@ -1,4 +1,6 @@
-.home-container p {
+.home-container {
   margin: 30px 60px;
   text-wrap: pretty;
+  color: white;
 }
+
